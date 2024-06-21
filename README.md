@@ -35,42 +35,33 @@ Questions:
 2. How does physical activity vary across different days of the week?
 3. What time of day do users typically reach their peak activity levels?
 4. How many active minutes do users accumulate daily, and how does this compare to recommended levels?
-
-Statistical Observations/Findings:
-
-1. total/average steps vs.
-2. total calories vs.
-3. sleep daily ...
-4. sedentary time, etc.
+5. Do the activities during the day affect individuals sleep quality? How?
 
 Visulization Interpretations:
 
-image 1/2
 <img width="944" alt="Screenshot 2024-06-17 at 8 18 46 PM" src="https://github.com/Enimien/project_1_healthcare/assets/166356675/718dbd58-c859-47e2-9aba-bcabaaf3dd98">
 <img width="649" alt="Screenshot 2024-06-17 at 8 23 41 PM" src="https://github.com/Enimien/project_1_healthcare/assets/166356675/69f5bd35-0bb2-4217-9ad3-6a78e503a278">
 
-description 1
-description 1
-
-image 3/4
 <img width="902" alt="Screenshot 2024-06-17 at 8 24 43 PM" src="https://github.com/Enimien/project_1_healthcare/assets/166356675/de6327bc-e8fa-4a43-91a2-b251303dd584">
 
-description 2
-description 2
+![image](https://github.com/Enimien/project_1_healthcare/assets/166356675/9629c20a-8239-4d97-8b99-a88334ad6b70)
+<img width="930" alt="image" src="https://github.com/Enimien/project_1_healthcare/assets/166356675/67b5b471-d4b1-40b7-8d37-fb98ecb8b893">
 
-image 5/6
+<img width="886" alt="image" src="https://github.com/Enimien/project_1_healthcare/assets/166356675/db3f7d7f-5a91-4bb8-a4ef-c1e234bad2da">
+<img width="948" alt="image" src="https://github.com/Enimien/project_1_healthcare/assets/166356675/cc54558e-5ba1-41df-8775-abe9712a46a5">
 
-description 3
-description 3
+The pie chart shows that a large portion of users' daily activity time is spent in sedentary and lightly active states. These two categories together make up the majority of the pie chart, very active and fairly active minutes make up a smaller portion of the pie chart. The line chart shows peak activity times in the late morning and late afternoon, with low activity during typical sleep hours and early afternoon rest periods, this resonates the findings in question in earlier questions. The two charts complements each other suggest the same pattern, and provide insights for designing features such as targeted reminders or fitness programs during peak low activity times to encourage users to do more moderate to vigorous activities in their daily routine and potentially boost overall health.
 
-image 7/8: pie chart (sedentary minutes, lightly active, fairly active, very active minutes), bar chart
+<img width="795" alt="image" src="https://github.com/Enimien/project_1_healthcare/assets/166356675/97c79981-74dd-49dc-a251-0baa58e42664">
+<img width="1522" alt="image" src="https://github.com/Enimien/project_1_healthcare/assets/166356675/38982f34-0ed1-42e4-b0f0-80821c93ed82">
 
-description 4
-description 4
+Description:
+There's really strong correlation between 'Total Minutes In Bed' and 'Total Minutes Asleep', the x value is 0.87.
+The more calories you burnt during the day, the faster you will get to asleep.
 
 Conclusions/Recommendations:
 
-1.
-2.
-3.
-4.
+1. Importance of staying active.
+2. The resulting plot visually represent the average total steps taken on each day of the week, showing that Saturday and Tuesday have the highest total steps across different days.
+3. The pattern in question 4 can provide insights for designing interventions to increase daily physical activity, encouraging users to incorporate more moderate to vigorous activities into their daily routines could help balance the high proportion of sedentary and light activities. For example, targeted reminders or fitness programs during peak low-activity times.
+4. The more calories burnt during the day, the less time you will take to fall asleep. If you have sleep issues, we would recommend users to try be more active during the daytime.
