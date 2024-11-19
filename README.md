@@ -1,27 +1,27 @@
-Fitbit Tracker DataSet Analysis
+# Fitbit Tracker DataSet Analysis
 
 The data set used for this analysis is available on Kaggle: https://www.kaggle.com/datasets/haseeb85/fitbit-fitness-tracker-data?select=Fitabase+Data+4.12.16-5.12.16
 
-Task:
+## Task:
 
 Analyze FitBit fitness tracker data to gain insights into how consumers are using the FitBit app and give recommendations to the public on how to live a better and healthier life based on the results that we found using the data.
 
-About the Dataset:
+## About the Dataset:
 
 Data is publicly available on Kaggle
 33 FitBit users consented to the submission of personal tracker data.
 Data collected includes physical activity recorded in hours, heart rate, sleep monitoring, daily activity, steps and calories.
 
-Limitations:
+## Limitations:
 
 There are limited users (33 unique IDs) and limited period of time (a month). In addition, the sample size may not be representative of the population.
 The dataset is not catogorized for analysis (unspecified for gender, age, region, etc.).
 
-Tools:
+## Tools:
 
-Python is used for data merging, data cleaning, and visulization.
+Python is used for data merging, data cleaning, and visualization.
 
-CSV file used:
+## CSV file used:
 
 dailyCalories_merged.csv
 dailyIntensities_merged.csv
@@ -29,7 +29,7 @@ hourlyCalories_merged.csv
 hourlyIntensities_merged.csv
 sleepDay_merged.csv
 
-Questions:
+## Questions:
 
 1. What is the average daily step count for users?
 2. How does physical activity vary across different days of the week?
@@ -37,7 +37,7 @@ Questions:
 4. How many active minutes do users accumulate daily, and how does this compare to recommended levels?
 5. Do the activities during the day affect individuals sleep quality? How?
 
-Visulization Interpretations:
+## Visualization Interpretations:
 
 <img width="944" alt="Screenshot 2024-06-17 at 8 18 46 PM" src="https://github.com/Enimien/project_1_healthcare/assets/166356675/718dbd58-c859-47e2-9aba-bcabaaf3dd98">
 <img width="649" alt="Screenshot 2024-06-17 at 8 23 41 PM" src="https://github.com/Enimien/project_1_healthcare/assets/166356675/69f5bd35-0bb2-4217-9ad3-6a78e503a278">
@@ -59,7 +59,7 @@ Description:
 There's really strong correlation between 'Total Minutes In Bed' and 'Total Minutes Asleep', the x value is 0.87.
 The more calories you burnt during the day, the faster you will get to asleep.
 
-Conclusions/Recommendations:
+##  Conclusions / Recommendations:
 
 1. Importance of staying active.
 2. The resulting plot visually represent the average total steps taken on each day of the week, showing that Saturday and Tuesday have the highest total steps across different days.
