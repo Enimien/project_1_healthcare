@@ -1,6 +1,8 @@
 # Fitbit Tracker DataSet Analysis
 
-The data set used for this analysis is available on Kaggle: https://www.kaggle.com/datasets/haseeb85/fitbit-fitness-tracker-data?select=Fitabase+Data+4.12.16-5.12.16
+The data set used for this analysis is available on Kaggle: 
+
+https://www.kaggle.com/datasets/haseeb85/fitbit-fitness-tracker-data?select=Fitabase+Data+4.12.16-5.12.16
 
 ## Task:
 
@@ -8,7 +10,7 @@ Analyze FitBit fitness tracker data to gain insights into how consumers are usin
 
 ## About the Dataset:
 
-Data is publicly available on Kaggle
+Data is publicly available on Kaggle. 
 33 FitBit users consented to the submission of personal tracker data.
 Data collected includes physical activity recorded in hours, heart rate, sleep monitoring, daily activity, steps and calories.
 
@@ -24,9 +26,13 @@ Python is used for data merging, data cleaning, and visualization.
 ## CSV file used:
 
 dailyCalories_merged.csv
+
 dailyIntensities_merged.csv
+
 hourlyCalories_merged.csv
+
 hourlyIntensities_merged.csv
+
 sleepDay_merged.csv
 
 ## Questions:
@@ -50,12 +56,12 @@ sleepDay_merged.csv
 <img width="886" alt="image" src="https://github.com/Enimien/project_1_healthcare/assets/166356675/db3f7d7f-5a91-4bb8-a4ef-c1e234bad2da">
 <img width="948" alt="image" src="https://github.com/Enimien/project_1_healthcare/assets/166356675/cc54558e-5ba1-41df-8775-abe9712a46a5">
 
-The pie chart shows that a large portion of users' daily activity time is spent in sedentary and lightly active states. These two categories together make up the majority of the pie chart, very active and fairly active minutes make up a smaller portion of the pie chart. The line chart shows peak activity times in the late morning and late afternoon, with low activity during typical sleep hours and early afternoon rest periods, this resonates the findings in question in earlier questions. The two charts complements each other suggest the same pattern, and provide insights for designing features such as targeted reminders or fitness programs during peak low activity times to encourage users to do more moderate to vigorous activities in their daily routine and potentially boost overall health.
+**Description:** The pie chart shows that a large portion of users' daily activity time is spent in sedentary and lightly active states. These two categories together make up the majority of the pie chart, very active and fairly active minutes make up a smaller portion of the pie chart. The line chart shows peak activity times in the late morning and late afternoon, with low activity during typical sleep hours and early afternoon rest periods, this resonates the findings in question in earlier questions. The two charts complements each other suggest the same pattern, and provide insights for designing features such as targeted reminders or fitness programs during peak low activity times to encourage users to do more moderate to vigorous activities in their daily routine and potentially boost overall health.
 
 <img width="795" alt="image" src="https://github.com/Enimien/project_1_healthcare/assets/166356675/97c79981-74dd-49dc-a251-0baa58e42664">
 <img width="1522" alt="image" src="https://github.com/Enimien/project_1_healthcare/assets/166356675/38982f34-0ed1-42e4-b0f0-80821c93ed82">
 
-Description:
+**Description:**
 There's really strong correlation between 'Total Minutes In Bed' and 'Total Minutes Asleep', the x value is 0.87.
 The more calories you burnt during the day, the faster you will get to asleep.
 
